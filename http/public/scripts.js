@@ -2,7 +2,6 @@ const ul = document.querySelector("ul")
 const input = document.querySelector("input")
 const form = document.querySelector('form')
 
-
 async function load() {
     const res = await fetch("http://localhost:3000/").then((data) => data.json())
     
